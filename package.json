@@ -1,0 +1,18 @@
+{
+  "name": "timeseries-server",
+  "version": "0.1.0",
+  "description": "A server to host linked time series data as linked data fragments",
+  "main": "bin/timeseries-server.js",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.2.1",
+    "md5": "^2.2.1",
+    "n3": "^0.11.2",
+    "websocket-stream": "^5.1.2",
+    "ws": "^3.3.1"
+  },
+  "devDependencies": {},
+  "author": "http://idlab.technology/#organization",
+  "license": "MIT",
+  "keywords": []
+}

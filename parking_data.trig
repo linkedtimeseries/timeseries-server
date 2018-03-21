@@ -1,0 +1,2167 @@
+@prefix datex: <http://vocab.datex.org/terms#>.
+@prefix schema: <http://schema.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix cc: <http://creativecommons.org/ns#>.
+@prefix mdi: <http://w3id.org/multidimensional-interface/ontology#>.
+@prefix time: <https://www.w3.org/TR/owl-time/>.
+@prefix ts: <http://datapiloten.be/vocab/timeseries#>.
+
+<https://linked.open.gent/parking?time=2017-11-08T07:00:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:00:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:00:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:00:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:00:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:00:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:01:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:01:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:01:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:01:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:01:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:01:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:02:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:02:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:02:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:02:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:02:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:02:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:03:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:03:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:03:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:03:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:03:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:03:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:04:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:04:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:04:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:04:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:04:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:04:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:05:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:05:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:05:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:05:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:05:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:05:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:06:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:06:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:06:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:06:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:06:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:06:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:07:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:07:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:07:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:07:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:07:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:07:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:08:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:08:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:08:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:08:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:08:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:08:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:09:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:09:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:09:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:09:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:09:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:09:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:10:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:10:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:10:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:10:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:10:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:10:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:11:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:11:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:11:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:11:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:11:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:11:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:12:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:12:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:12:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:12:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:12:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:12:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:13:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:13:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:13:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:13:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:13:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:13:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:14:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:14:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:14:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:14:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:14:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:14:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:15:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:15:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:15:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:15:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:15:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:15:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:16:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:16:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:16:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:16:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:16:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:16:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:17:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:17:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:17:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:17:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "348".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:17:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:17:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:18:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:18:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:18:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:18:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:18:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:18:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:19:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:19:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:19:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:19:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:19:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:19:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:20:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:20:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:20:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:20:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:20:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:20:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:21:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:21:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:21:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:21:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:21:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:21:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:22:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:22:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:22:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:22:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:22:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:22:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:23:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:23:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:23:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:23:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:23:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:23:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:24:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:24:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:24:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:24:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "351".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:24:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:24:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:25:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:25:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:25:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:25:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:25:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:25:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:26:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:26:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:26:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:26:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:26:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:26:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:27:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:27:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:27:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:27:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:27:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:27:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:28:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:28:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:28:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:28:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:28:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:28:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:29:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:29:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:29:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:29:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:29:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:29:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:30:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:30:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:30:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:30:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:30:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:30:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:31:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:31:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:31:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:31:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:31:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:31:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:32:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:32:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:32:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:32:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:32:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:32:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:33:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "390"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:33:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:33:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:33:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:33:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:33:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:34:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:34:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:34:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:34:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:34:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:34:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:35:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:35:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:35:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:35:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:35:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:35:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:36:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:36:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:36:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:36:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:36:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:36:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:37:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:37:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:37:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:37:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:37:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:37:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:38:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:38:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:38:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:38:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:38:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:38:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:39:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:39:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:39:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:39:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:39:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:39:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:40:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:40:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:40:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:40:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:40:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:40:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:41:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:41:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:41:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:41:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:41:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:41:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:42:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "122".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:42:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:42:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:42:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "122".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:42:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:42:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:43:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:43:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:43:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:43:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:43:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:43:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:44:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:44:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:44:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:44:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:44:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:44:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:45:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:45:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:45:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:45:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:45:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:45:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:46:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:46:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:46:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:46:33> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:46:33> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:46:33+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:47:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:47:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:47:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:47:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "635".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:47:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:47:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:48:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "502".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:48:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:48:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:48:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:48:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:48:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:49:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:49:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:49:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:49:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:49:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:49:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:50:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:50:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:50:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:50:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:50:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:50:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:51:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:51:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:51:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:51:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:51:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:51:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:52:00> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:52:00> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:52:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:52:30> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:52:30> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:52:30+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:53:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:53:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:53:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:53:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:53:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:53:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:54:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:54:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:54:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:54:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:54:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:54:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:55:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:55:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:55:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:55:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:55:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:55:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:56:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:56:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:56:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:56:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:56:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:56:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:57:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:57:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:57:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:57:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:57:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:57:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:58:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:58:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:58:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:58:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:58:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:58:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:59:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:59:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:59:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T07:59:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "411".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:59:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T07:59:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:00:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:00:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:00:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:00:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:00:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:00:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:01:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:01:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:01:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:01:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:01:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:01:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:02:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:02:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:02:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:02:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:02:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:02:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:03:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "389"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:03:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:03:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:03:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:03:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:03:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:04:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:04:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:04:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:04:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:04:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:04:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:05:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:05:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:05:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:05:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:05:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:05:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:06:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:06:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:06:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:06:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:06:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:06:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:07:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:07:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:07:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:07:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:07:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:07:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:08:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:08:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:08:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:08:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:08:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:08:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:09:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:09:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:09:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:09:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:09:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:09:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:10:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:10:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:10:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:10:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "352".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:10:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:10:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:11:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "337".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:11:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:11:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:11:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "337".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:11:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:11:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:12:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "337".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:12:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:12:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:12:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "337".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:12:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:12:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:13:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "337".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:13:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:13:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:13:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "337".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:13:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:13:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:14:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:14:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:14:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:14:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:14:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:14:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:15:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:15:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:15:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:15:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:15:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:15:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:16:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:16:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:16:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:16:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:16:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:16:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:17:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:17:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:17:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:17:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:17:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:17:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:18:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:18:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:18:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:18:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:18:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:18:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:19:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:19:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:19:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:19:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:19:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:19:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:20:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:20:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:20:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:20:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:20:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:20:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:21:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:21:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:21:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:21:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:21:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:21:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:22:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:22:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:22:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:22:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:22:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:22:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:23:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:23:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:23:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:23:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:23:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:23:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:24:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:24:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:24:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:24:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:24:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:24:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:25:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:25:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:25:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:25:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "362".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:25:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:25:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:26:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:26:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:26:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:26:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:26:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:26:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:27:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:27:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:27:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:27:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:27:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:27:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:28:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:28:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:28:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:28:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:28:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:28:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:29:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:29:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:29:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:29:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "367"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:29:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:29:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:30:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:30:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:30:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:30:31> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:30:31> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:30:31+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:31:02> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:31:02> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:31:02+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:31:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:31:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:31:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:32:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:32:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:32:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:32:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:32:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:32:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:33:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:33:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:33:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:33:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:33:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:33:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:34:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:34:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:34:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:34:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:34:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:34:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:35:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:35:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:35:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:35:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:35:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:35:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:36:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:36:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:36:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:36:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:36:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:36:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:37:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:37:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:37:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:37:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:37:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:37:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:38:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:38:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:38:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:38:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:38:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:38:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:39:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:39:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:39:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:39:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:39:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:39:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:40:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:40:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:40:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:40:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:40:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:40:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:41:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:41:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:41:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:41:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "366".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:41:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:41:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:42:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "364".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:42:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:42:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:42:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "364".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:42:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:42:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:43:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "364".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:43:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:43:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:43:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "364".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:43:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:43:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:44:01> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "364".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:44:01> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:44:01+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://linked.open.gent/parking?time=2017-11-08T08:44:32> {
+<https://stad.gent/id/parking/P7> datex:parkingNumberOfVacantSpaces "364".
+<https://stad.gent/id/parking/P10> datex:parkingNumberOfVacantSpaces "617".
+<https://stad.gent/id/parking/P1> datex:parkingNumberOfVacantSpaces "519".
+<https://stad.gent/id/parking/P4> datex:parkingNumberOfVacantSpaces "329".
+<https://stad.gent/id/parking/P8> datex:parkingNumberOfVacantSpaces "125".
+<https://stad.gent/id/parking/P2> datex:parkingNumberOfVacantSpaces "334"
+}
+<https://linked.open.gent/parking?time=2017-11-08T08:44:32> <http://www.w3.org/ns/prov#generatedAtTime> "2017-11-08T08:44:32+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>.
+<https://stad.gent/id/parking/P10> owl:sameAs <http://linkedgeodata.org/triplify/node204735155>.
+<https://stad.gent/id/parking/P7> owl:sameAs <http://linkedgeodata.org/triplify/node310469809>.
+<https://stad.gent/id/parking/P1> owl:sameAs <http://linkedgeodata.org/triplify/node2547503851>.
+<https://stad.gent/id/parking/P4> owl:sameAs <http://linkedgeodata.org/triplify/node346358328>.
+<https://stad.gent/id/parking/P8> owl:sameAs <http://linkedgeodata.org/triplify/node497394185>.
+<https://stad.gent/id/parking/P2> owl:sameAs <http://linkedgeodata.org/triplify/node1310104245>.
+<https://stad.gent/id/parking/P7> a datex:UrbanParkingSite;
+    rdfs:label "P07 Sint-Michiels";
+    dct:description "Sint-Michiels";
+    datex:parkingNumberOfSpaces "450".
+<https://stad.gent/id/parking/P10> a datex:UrbanParkingSite;
+    rdfs:label "P10 Sint-Pietersplein";
+    dct:description "Sint-Pietersplein";
+    datex:parkingNumberOfSpaces "708".
+<https://stad.gent/id/parking/P1> a datex:UrbanParkingSite;
+    rdfs:label "P01 Vrijdagmarkt";
+    dct:description "Vrijdagmarkt";
+    datex:parkingNumberOfSpaces "647".
+<https://stad.gent/id/parking/P4> a datex:UrbanParkingSite;
+    rdfs:label "P04 Savaanstraat";
+    dct:description "Savaanstraat";
+    datex:parkingNumberOfSpaces "540".
+<https://stad.gent/id/parking/P8> a datex:UrbanParkingSite;
+    rdfs:label "P08 Ramen";
+    dct:description "Ramen";
+    datex:parkingNumberOfSpaces "266".
+<https://stad.gent/id/parking/P2> a datex:UrbanParkingSite;
+    rdfs:label "P02 Reep";
+    dct:description "Reep";
+    datex:parkingNumberOfSpaces "470".
+<#Metadata> {
+<https://linked.open.gent/parking> rdfs:label "Historic and real-time parking data in Ghent";
+    rdfs:comment "This document is a proof of concept mapping using Linked Datex2 by Pieter Colpaert";
+    foaf:homepage <https://github.com/smartflanders/ghent-datex2-to-linkeddata>;
+    cc:license <https://data.stad.gent/algemene-licentie>.
+<https://linked.open.gent/parking?page=2017-11-08T07:00:00> hydra:previous <https://linked.open.gent/parking?page=2017-11-08T04:00:00>.
+<https://linked.open.gent/parking#dataset> hydra:search <https://linked.open.gent/parking#search>;
+    rdf:type void:Dataset;
+    void:subset <>;
+    mdi:hasRangeGate <https://linked.open.gent/parking/rangegate>.
+<https://linked.open.gent/parking#mappingS> hydra:variable "s".
+<https://linked.open.gent/parking#mappingP> hydra:variable "p".
+<https://linked.open.gent/parking#mappingO> hydra:variable "o".
+<https://linked.open.gent/parking#mappingS> hydra:property "subject".
+<https://linked.open.gent/parking#mappingP> hydra:property "property".
+<https://linked.open.gent/parking#mappingO> hydra:property "object".
+<https://linked.open.gent/parking#search> hydra:template "https://linked.open.gent/parking";
+    hydra:mapping <https://linked.open.gent/parking#mappingS>, <https://linked.open.gent/parking#mappingP>, <https://linked.open.gent/parking#mappingO>
+}
+<https://linked.open.gent/parking?time=2017-11-08T07:00:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:00:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:01:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:01:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:02:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:02:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:03:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:03:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:04:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:04:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:05:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:05:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:06:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:06:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:07:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:07:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:08:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:08:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:09:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:09:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:10:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:10:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:11:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:11:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:12:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:12:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:13:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:13:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:14:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:14:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:15:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:15:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:16:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:16:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:17:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:17:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:18:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:18:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:19:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:19:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:20:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:20:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:21:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:21:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:22:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:22:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:23:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:23:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:24:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:24:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:25:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:25:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:26:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:26:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:27:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:27:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:28:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:28:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:29:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:29:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:30:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:30:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:31:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:31:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:32:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:32:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:33:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:33:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:34:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:34:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:35:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:35:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:36:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:36:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:37:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:37:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:38:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:38:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:39:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:39:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:40:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:40:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:41:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:41:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:42:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:42:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:43:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:43:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:44:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:44:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:45:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:45:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:46:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:46:33> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:47:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:47:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:48:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:48:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:49:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:49:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:50:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:50:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:51:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:51:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:52:00> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:52:30> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:53:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:53:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:54:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:54:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:55:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:55:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:56:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:56:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:57:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:57:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:58:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:58:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:59:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T07:59:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:00:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:00:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:01:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:01:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:02:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:02:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:03:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:03:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:04:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:04:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:05:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:05:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:06:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:06:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:07:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:07:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:08:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:08:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:09:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:09:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:10:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:10:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:11:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:11:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:12:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:12:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:13:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:13:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:14:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:14:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:15:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:15:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:16:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:16:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:17:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:17:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:18:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:18:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:19:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:19:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:20:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:20:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:21:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:21:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:22:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:22:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:23:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:23:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:24:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:24:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:25:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:25:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:26:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:26:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:27:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:27:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:28:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:28:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:29:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:29:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:30:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:30:31> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:31:02> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:31:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:32:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:32:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:33:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:33:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:34:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:34:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:35:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:35:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:36:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:36:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:37:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:37:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:38:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:38:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:39:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:39:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:40:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:40:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:41:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:41:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:42:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:42:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:43:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:43:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:44:01> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<https://linked.open.gent/parking?time=2017-11-08T08:44:32> a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity>.
+<#Metadata> {
+<https://linked.open.gent/parking> void:triples "1940"^^<http://www.w3.org/2001/XMLSchema#integer>
+}

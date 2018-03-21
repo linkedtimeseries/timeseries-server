@@ -1,0 +1,45 @@
+@prefix datex: <http://vocab.datex.org/terms#>.
+@prefix schema: <http://schema.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix cc: <http://creativecommons.org/ns#>.
+@prefix mdi: <http://w3id.org/multidimensional-interface/ontology#>.
+@prefix time: <https://www.w3.org/TR/owl-time/>.
+@prefix ts: <http://datapiloten.be/vocab/timeseries#>.
+
+<https://stad.gent/id/parking/P10> owl:sameAs <http://linkedgeodata.org/triplify/node204735155>.
+<https://stad.gent/id/parking/P7> owl:sameAs <http://linkedgeodata.org/triplify/node310469809>.
+<https://stad.gent/id/parking/P1> owl:sameAs <http://linkedgeodata.org/triplify/node2547503851>.
+<https://stad.gent/id/parking/P4> owl:sameAs <http://linkedgeodata.org/triplify/node346358328>.
+<https://stad.gent/id/parking/P8> owl:sameAs <http://linkedgeodata.org/triplify/node497394185>.
+<https://stad.gent/id/parking/P2> owl:sameAs <http://linkedgeodata.org/triplify/node1310104245>.
+<https://stad.gent/id/parking/P7> a datex:UrbanParkingSite;
+    rdfs:label "P07 Sint-Michiels";
+    dct:description "Sint-Michiels";
+    datex:parkingNumberOfSpaces "450".
+<https://stad.gent/id/parking/P10> a datex:UrbanParkingSite;
+    rdfs:label "P10 Sint-Pietersplein";
+    dct:description "Sint-Pietersplein";
+    datex:parkingNumberOfSpaces "708".
+<https://stad.gent/id/parking/P1> a datex:UrbanParkingSite;
+    rdfs:label "P01 Vrijdagmarkt";
+    dct:description "Vrijdagmarkt";
+    datex:parkingNumberOfSpaces "647".
+<https://stad.gent/id/parking/P4> a datex:UrbanParkingSite;
+    rdfs:label "P04 Savaanstraat";
+    dct:description "Savaanstraat";
+    datex:parkingNumberOfSpaces "540".
+<https://stad.gent/id/parking/P8> a datex:UrbanParkingSite;
+    rdfs:label "P08 Ramen";
+    dct:description "Ramen";
+    datex:parkingNumberOfSpaces "266".
+<https://stad.gent/id/parking/P2> a datex:UrbanParkingSite;
+    rdfs:label "P02 Reep";
+    dct:description "Reep";
+    datex:parkingNumberOfSpaces "470".

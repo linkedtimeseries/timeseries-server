@@ -1,0 +1,25 @@
+{
+	"serverUrl": "http://localhost:8080/",
+	"httpPort": 8080,
+	"interfaces": [
+		{
+			"name": "RawData",
+			"path": "../lib/interfaces/RawData",
+			"websocket": true,
+			"wsPort": 3001,
+			"fragmentsPath": "./example/data/RawData",
+			"staticTriples": "./example/data/rawdata_static.trig",
+			"maxFileSize": 100000
+		},
+		{
+			"name": "StatisticalAverage",
+			"path": "../lib/interfaces/StatisticalAverage",
+			"websocket": false
+		},
+		{
+			"name": "GeographicClassification",
+			"path": "../lib/interfaces/GeographicClassification",
+			"websocket": false
+		}
+	]
+}
