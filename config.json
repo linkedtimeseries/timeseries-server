@@ -14,7 +14,10 @@
 		{
 			"name": "StatisticalAverage",
 			"path": "../lib/interfaces/StatisticalAverage",
-			"websocket": false
+			"websocket": true,
+			"wsPort": 3002,
+			"fragmentsPath": "./example/data/StatData",
+			"staticTriples": "./example/data/statsdata_static.trig"
 		},
 		{
 			"name": "GeographicClassification",
