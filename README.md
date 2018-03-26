@@ -2,7 +2,7 @@
 
 The Live Time Series Server is an ongoing implementation that aims on providing a cost efficient interface for 
 Open Stream data publishing. Through an extensible modular architecture we allow data publishers to define 
-multidimensional interfaces to provide query answering functionalities on top of their data.
+[multidimensional interfaces](http://ceur-ws.org/Vol-1666/paper-03.pdf) to provide query answering functionalities on top of their data.
 
 ![Server Architecture](https://linkedtimeseries.github.io/timeseries-demo-paper/media/images/fig1.png)
 
@@ -15,13 +15,23 @@ Features:
 
 A more detailed description can be found on this [demo paper](https://linkedtimeseries.github.io/timeseries-demo-paper/).
 
+## RDF Stream
+A RDF stream object is a named graph with elements as follows:
+```
+<a> <b> <c> <graph1> .
+<...> <...> <...> <graph1> .
+<graph1> prov:generatedAtTime "2018-..." .
+```
+As an example we provide a set of around one hour of parking availability [observations](https://github.com/linkedtimeseries/timeseries-server/blob/master/parking_data.trig) 
+(made every 30 seconds) for the city of Ghent. The examples and implementations we descibe next are based on this example data.
+
 ## Installation
 Clone this repository and run `npm install` to install all necessary modules.
 
 ## Configuration
 An example configuration file ([config.json](https://github.com/linkedtimeseries/timeseries-server/blob/master/config.json)) 
 is provided. This file defines the main communication parameters of the server and as an example, also defines 3 different 
-multidimensional interfaces (RawData, StatisticalAverage and GeographicClassification). The main parameters are:
+multidimensional interfaces (`RawData`, `StatisticalAverage` and `GeographicClassification`). The main parameters are:
 ```js
 {
   "serverUrl": "http://localhost:8080/", // Web server main URL.
@@ -48,16 +58,34 @@ the defined parameters:
   "maxFileSize": 100000 // Maximun size in Bytes of each historic data fragment. 
 }
 ```
-
+### StatisticalAverage
+This interface serves as an example of exposing precalculated values from the original data of the stream. On this concrete implementation we expose the arithmetic mean of the parking availability of each defined parking lot in the stream. The data can be accesed on different levels that follow a time-based dimension (i.e. `year`, `month`, `day` and `hour`). Each time a new data update is received, the servers proceeds to re-calculate the arithmetic mean values and updates them on each level. The server also adds metadata using the [Hydra](http://www.hydra-cg.com/spec/latest/core/) and [Multidimensional Interface](http://semweb.datasciencelab.be/ns/multidimensional-interface/#RangeGate) vocabularies to link the different levels together. Next there is a snippet example of the data that can be retrieved at a `month` level using the `TriG` format:
+```
+<http://localhost:8080/StatisticalAverage/fragment/2018_2019/02_03> {
+<https://stad.gent/id/parking/P7> ts:mean "348".
+<https://stad.gent/id/parking/P10> ts:mean "635".
+<https://stad.gent/id/parking/P1> ts:mean "502".
+<https://stad.gent/id/parking/P4> ts:mean "411".
+<https://stad.gent/id/parking/P8> ts:mean "125".
+<https://stad.gent/id/parking/P2> ts:mean "390"
+}
+<http://localhost:8080/StatisticalAverage/fragment/2018_2019/02_03> <http://www.w3.org/ns/prov#generatedAtTime> "2018-02-28T23:58:20.813Z";
+    a mdi:RangeFragment;
+    mdi:initial "2018-03-01T00:00:00.000Z";
+    mdi:final "2018-04-01T00:00:00.000Z";
+    mdi:hasRangeGate <http://localhost:8080/StatisticalAverage/fragment/2018_2019/>;
+    ts:sampleSize "126";
+    a mdi:RangeGate;
+    hydra:search <http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04#search>.
+<http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04#search> hydra:template "http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/{+initial_final}";
+    hydra:mapping "http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04#mapping".
+<http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04#mapping> hydra:variable "initial", "final";
+    hydra:property mdi:initial, mdi:final.
+```
+### GeograhicalClassification
+Not implemented yet.
 ## Test it
-To test the server a RDF stream can be piped into the server. An RDF stream object is a named graph with elements as follows:
-```
-<a> <b> <c> <graph1> .
-<...> <...> <...> <graph1> .
-<graph1> prov:generatedAtTime "2018-..." .
-```
-As an example we provide a set of around one hour of parking availability [observations](https://github.com/linkedtimeseries/timeseries-server/blob/master/parking_data.trig) 
-(made every 30 seconds) for the city of Ghent. We can pipe this file into the server using the [replay-timeseries](https://www.npmjs.com/package/replay-timeseries)
+To test the server a RDF stream can be piped into the server. We can pipe the example dataset into the server using the [replay-timeseries](https://www.npmjs.com/package/replay-timeseries)
 tool, which allows to control the frequency of the updates. Follow the next steps to test the server after installation:
 ```bash
 $ cd timeseries-server
@@ -65,22 +93,39 @@ $ npm install -g replay-timeseries
 $ cat parking_data.trig | replay-timeseries -s 10x | node bin/timeseries-server.js -c config.json
 ```
 As the original observations were made every 30 seconds, we use `replay-timeseries -s 10x` to replay them every 3 seconds 
-(10 times faster). This tool also rewrites the `prov:generatedAtTime` value to the current time for testing purposes. 
-Now, to access the data you can use a polling approach through HTTP as follows:
+(10 times faster). This tool also rewrites the `prov:generatedAtTime` value to the current time for testing purposes.
+### HTTP Interfaces
+To access the data you can use a polling approach through HTTP as follows:
+#### RawData
 ```bash
 $ curl -v http://localhost:8080/RawData/latest # Will return the latest stream update.
 $ curl -v -L http://localhost:8080/RawData/fragments # Will redirect to the most recent data fragment.
 $ curl -v -L http://localhost:8080/RawData/fragments?time=2018-03-20T10:15:00.000Z # Will redirect to the fragment containing observations starting on the given time 
 ```
-Each fragment contains [hydra](http://www.hydra-cg.com/spec/latest/core/) metadata to link to previous data fragment.
-
+Each fragment contains [Hydra](http://www.hydra-cg.com/spec/latest/core/) metadata to link to previous data fragment.
+#### StatisticalAverage
+Please take into account that the data starts to be calculated from the moment the server is initialized, therefore the dates defined in the test URLs showed next have to be adapted to the moment you run the server.  
+```bash
+$ curl -v http://localhost:8080/StatisticalAverage/fragment/2018_2019 # Will return the available calculated averages for the year 2018.
+$ curl -v -L http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04 # Will return the available calculated averages for the month 2018/03.
+$ curl -v -L http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/25_26 # Will return the available calculated averages for the day 2018/03/25.
+$ curl -v -L http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/25_26/15_16 # Will return the available calculated averages for the hour 2018/03/25 15:00.
+```
+Each level contains [Hydra](http://www.hydra-cg.com/spec/latest/core/) metadata to link to the upper level and also defines how to query the next available inferior level.
+### Websocket Interface
 To access the data through Websockets you can execute the example Websocket [client](https://github.com/linkedtimeseries/timeseries-server/blob/master/lib/WebSocketClient.js) 
 provided on this implementation as follows:
 ```bash
 $ cd timeseries-server
 $ node lib/WebSocketClient.js
 ```
-It will print on console the data it receives from the server.
+It subscribes to both the Websocket channels defined by the `RawInterface` and the `StatisticalAverage` interface. It will print on console the data it receives from the server.
+## Future Work
+We plan to extend this implementation with the following features:
+ * Mapping capabilities to work with non-RDF streams.
+ * Support for [Server-Sent Events](https://html.spec.whatwg.org/multipage/server-sent-events.html#server-sent-events) interfaces.
+ * A mechanism to weigh Multidimensional Interfaces and determine their cost (cpu, memory, response time, etc) on the server.
+ * A benchmark evaluation on the different types of communication interfaces to determine the most suitable one for a given data stream.
 
 ## Authors
 Julian Rojas - julianandres.rojasmelendez@ugent.be  
