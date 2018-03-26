@@ -98,18 +98,18 @@ As the original observations were made every 30 seconds, we use `replay-timeseri
 To access the data you can use a polling approach through HTTP as follows:
 #### RawData
 ```bash
-$ curl -v http://localhost:8080/RawData/latest # Will return the latest stream update.
-$ curl -v -L http://localhost:8080/RawData/fragments # Will redirect to the most recent data fragment.
-$ curl -v -L http://localhost:8080/RawData/fragments?time=2018-03-20T10:15:00.000Z # Will redirect to the fragment containing observations starting on the given time 
+$ curl http://localhost:8080/RawData/latest # Will return the latest stream update.
+$ curl -L http://localhost:8080/RawData/fragments # Will redirect to the most recent data fragment.
+$ curl -L http://localhost:8080/RawData/fragments?time=2018-03-20T10:15:00.000Z # Will redirect to the fragment containing observations starting on the given time 
 ```
 Each fragment contains [Hydra](http://www.hydra-cg.com/spec/latest/core/) metadata to link to previous data fragment.
 #### StatisticalAverage
 Please take into account that the data starts to be calculated from the moment the server is initialized, therefore the dates defined in the test URLs showed next have to be adapted to the moment you run the server.  
 ```bash
-$ curl -v http://localhost:8080/StatisticalAverage/fragment/2018_2019 # Will return the available calculated averages for the year 2018.
-$ curl -v -L http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04 # Will return the available calculated averages for the month 2018/03.
-$ curl -v -L http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/25_26 # Will return the available calculated averages for the day 2018/03/25.
-$ curl -v -L http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/25_26/15_16 # Will return the available calculated averages for the hour 2018/03/25 15:00.
+$ curl http://localhost:8080/StatisticalAverage/fragment/2018_2019 # Will return the available calculated averages for the year 2018.
+$ curl http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04 # Will return the available calculated averages for the month 2018/03.
+$ curl http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/25_26 # Will return the available calculated averages for the day 2018/03/25.
+$ curl http://localhost:8080/StatisticalAverage/fragment/2018_2019/03_04/25_26/15_16 # Will return the available calculated averages for the hour 2018/03/25 15:00.
 ```
 Each level contains [Hydra](http://www.hydra-cg.com/spec/latest/core/) metadata to link to the upper level and also defines how to query the next available inferior level.
 ### Websocket Interface
