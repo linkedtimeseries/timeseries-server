@@ -23,7 +23,7 @@ A RDF stream object is a named graph with elements as follows:
 <graph1> prov:generatedAtTime "2018-..." .
 ```
 As an example we provide a set of around one hour of parking availability [observations](https://github.com/linkedtimeseries/timeseries-server/blob/master/parking_data.trig) 
-(made every 30 seconds) for the city of Ghent. The examples and implementations we descibe next are based on this example data.
+(made every 30 seconds) for the city of Ghent. The examples and implementations we describe next are based on this example data.
 
 ## Installation
 Clone this repository and run `npm install` to install all necessary modules.
