@@ -24,5 +24,21 @@
 			"path": "../lib/interfaces/GeographicClassification",
 			"websocket": false
 		}
-	]
+	],
+	"metadata": {
+		"http://www.w3.org/2000/01/rdf-schema#label": {
+			"@value": "Historic and real-time parking data in Ghent"
+		},
+		"http://www.w3.org/2000/01/rdf-schema#comment": {
+			"@value": "This document is a proof of concept mapping using Linked Datex2 by Pieter Colpaert and Julian Rojas"
+		},
+		"http://xmlns.com/foaf/0.1/homepage": {
+			"@value": "https://github.com/smartflanders/ghent-datex2-to-linkeddata",
+			"@type": "@id"
+		},
+		"http://creativecommons.org/ns#license": {
+			"@value": "https://data.stad.gent/algemene-licentie",
+			"@type": "@id"
+		}
+	}
 }
