@@ -49,7 +49,7 @@ function writePerObservation(chunk) {
         else {
             // All quads parsed and stored
             // Retrieve distinct observations by generatedAtTime
-            const observations = store.getQuads(null, N3.DataFactory.namedNode('http://www.w3.org/ns/prov#generatedAtTime'), null);
+            const observations = store.getQuads(null, namedNode('http://www.w3.org/ns/prov#generatedAtTime'), null);
             observations.forEach((observation) => {
                 const writer = new N3.Writer({});
 
@@ -61,7 +61,7 @@ function writePerObservation(chunk) {
                 writer.addQuads(quadsByObservation);
                 writer.addQuads(provObservation);
                 writer.end((error, result) => {
-                    // Launch data event towards predifined interfaces through Data Event Manager module
+                    // Launch data event towards predefined interfaces through Data Event Manager module
                     DataEventManager.push('data', result);
                 });
             });
