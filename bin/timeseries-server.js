@@ -2,10 +2,10 @@ const CommunicationManager = require('../lib/CommunicationManager');
 const Configuration = require('../lib/Configuration');
 const DataEventManager = require('../lib/DataEventManager');
 const N3 = require('n3');
-
-const parser = new N3.Parser();
 const { DataFactory } = N3;
 const { namedNode, literal, defaultGraph, quad } = DataFactory;
+
+const parser = new N3.Parser();
 
 try {
     // Read config file
