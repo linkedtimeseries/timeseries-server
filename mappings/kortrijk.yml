@@ -1,0 +1,27 @@
+prefixes:
+  mv: "http://schema.mobivoc.org/"
+  dc: "http://purl.org/dc/terms/"
+
+mappings:
+  capacity:
+    sources:
+      - ['data.json~jsonpath', '$[*]']
+    po:
+      - [a, mv:RealTimeCapacity]
+      - [mv:totalCapacity, $(totalPlaces), xsd:integer]
+      - [mv:currentValue, $(freePlaces), xsd:integer]
+      - [dc:date, $(time), xsd:dateTime]
+
+  parking:
+    sources:
+      - ['data.json~jsonpath', '$[*]']
+    s: $(id)
+    po:
+      - p: mv:capacity
+        o:
+          mapping: capacity
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(id)]
+              - [str2, $(id)]

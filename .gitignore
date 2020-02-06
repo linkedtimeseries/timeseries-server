@@ -1,3 +1,4 @@
 node_modules/*
 example/data/RawData/*
 example/data/StatData/*
+mappings/tmp/*

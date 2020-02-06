@@ -4,12 +4,19 @@
   "description": "A server to host linked time series data as linked data fragments",
   "main": "bin/timeseries-server.js",
   "dependencies": {
+    "@rmlio/rmlmapper-java-wrapper": "^0.1.1",
+    "@rmlio/yarrrml-parser": "^0.3.11",
+    "cron": "^1.7.2",
+    "jsonld": "^1.8.1",
+    "jsonpath": "^1.0.2",
     "koa": "^2.11.0",
     "koa-router": "^7.2.1",
+    "koa-websocket": "^6.0.0",
     "md5": "^2.2.1",
     "moment": "^2.24.0",
     "n3": "^1.3.4",
-    "ws": "^3.3.1"
+    "request": "^2.88.0",
+    "ws": "^7.2.1"
   },
   "devDependencies": {},
   "author": "http://idlab.technology/#organization",

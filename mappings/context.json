@@ -1,0 +1,25 @@
+{
+    "mv": "http://schema.mobivoc.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "RealTimeCapacity": "mv:RealTimeCapacity",
+    "Observation": "sosa:Observation",
+    "capacity": "mv:capacity",
+    "date": {
+        "@type": "xsd:dateTime",
+        "@id": "dc:date"
+    },
+    "freePlaces": {
+        "@type": "xsd:integer",
+        "@id": "mv:currentValue"
+    },
+    "totalPlaces": {
+        "@type": "xsd:integer",
+        "@id": "mv:totalCapacity"
+    },
+    "lastObserved": {
+        "@type": "xsd:dateTime",
+        "@id": "sosa:resultTime"
+    }
+}

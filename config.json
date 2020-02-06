@@ -1,31 +1,80 @@
 {
-	"serverUrl": "http://localhost:8080/",
+	"hostName": "http://localhost:8080",
 	"httpPort": 8080,
-	"interfaces": [
+	"liveUriPath": "/data/live/",
+	"sources": [
 		{
-			"name": "RawData",
-			"path": "../lib/interfaces/RawData",
+			"name": "kortrijk",
+			"sourceUrl": "https://stallingsnet.nl/api/3/parkingcount/kortrijk?apiKey=NzgxOlduaEFfU0t2Z2FicDRKaWh0bXVzNTFUN3pKUT0=",
+			"interfaces": {
+				"RawData": "lib/interfaces/RawData"
+			},	
+			"outputPath": "/home/julian/data/velopark/live",
+			"refreshInterval": "*/10 * * * * *",
+			"staticTriples": "",
+			"metadata": "",
+			"maxFileSize": 5000,
+			"mappings": "./mappings/kortrijk.yml",
+			"context": "./mappings/context.json",
+			"idAlignment": {
+				"apiParam": "id",
+				"align": [
+					{
+						"value": "20-1",
+						"@id": "https://velopark.ilabt.imec.be/data/Parko_1"
+					}
+				]
+			}
+		},
+		{
+			"name": "gent",
+			"sourceUrl": "https://datatank.stad.gent/4/mobiliteit/realtimebezettingfietsenstallingen.json",
+			"interfaces": {
+				"RawData": "lib/interfaces/RawData"
+			},	
+			"outputPath": "/home/julian/data/velopark/live",
+			"refreshInterval": "*/5 * * * * *",
 			"websocket": true,
-			"wsPort": 3001,
-			"fragmentsPath": "./example/data/RawData",
-			"staticTriples": "./example/data/rawdata_static.trig",
-			"maxFileSize": 100000
+			"metadata": "",
+			"maxFileSize": 5000,
+			"mappings": "mappings/gent.yml",
+			"context": "mappings/context.json",
+			"idAlignment": {
+				"apiParam": "id",
+				"align": [
+					{
+						"value": "48-1",
+						"@id": "https://velopark.ilabt.imec.be/data/De-Fietsambassade-Gent_Korenmarkt"
+					},
+					{
+						"value": "48-2",
+						"@id": "https://velopark.ilabt.imec.be/data/De-Fietsambassade-Gent_Emile-Braun-Plein"
+					}
+				]
+			}
+		},
+		{
+			"name": "vilvoorde",
+			"sourceUrl": "https://api.fietskluis-app.nl/public-api/locations/8b842ad4-6193-42fc-b1ee-591226fb2ce4",
+			"interfaces": {
+				"RawData": "lib/interfaces/RawData"
+			},	
+			"outputPath": "/home/julian/data/velopark/live",
+			"refreshInterval": "*/15 * * * * *",
+			"staticTriples": "",
+			"metadata": "",
+			"maxFileSize": 5000,
+			"mappings": "mappings/vilvoorde.yml",
+			"context": "mappings/context.json",
+			"idAlignment": {
+				"apiParam": "id",
+				"align": [
+					{
+						"value": "8b842ad4-6193-42fc-b1ee-591226fb2ce4",
+						"@id": "https://velopark.ilabt.imec.be/data/Blue-Bike_bluelockervilvoorde"
+					}
+				]
+			}
 		}
-	],
-	"metadata": {
-		"http://www.w3.org/2000/01/rdf-schema#label": {
-			"@value": "Historic and real-time parking data in Ghent"
-		},
-		"http://www.w3.org/2000/01/rdf-schema#comment": {
-			"@value": "This document is a proof of concept mapping using Linked Datex2 by Pieter Colpaert and Julian Rojas"
-		},
-		"http://xmlns.com/foaf/0.1/homepage": {
-			"@value": "https://github.com/smartflanders/ghent-datex2-to-linkeddata",
-			"@type": "@id"
-		},
-		"http://creativecommons.org/ns#license": {
-			"@value": "https://data.stad.gent/algemene-licentie",
-			"@type": "@id"
-		}
-	}
+	]
 }

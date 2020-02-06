@@ -1,11 +1,7 @@
 const CommunicationManager = require('../lib/CommunicationManager');
 const Configuration = require('../lib/Configuration');
+const SourceReader = require('../lib/SourceReader');
 const DataEventManager = require('../lib/DataEventManager');
-const N3 = require('n3');
-const { DataFactory } = N3;
-const { namedNode, literal, defaultGraph, quad } = DataFactory;
-
-const parser = new N3.Parser();
 
 try {
     // Read config file
@@ -13,17 +9,30 @@ try {
     // Init Communication Manager module
     let commManager = new CommunicationManager(config);
 
-    // Load multidimensional interfaces
-    loadInterfaceModules(config.interfaces, commManager);
+    // Process data source
+    for (let i in config.sources) {
 
-    //Listen for data on standard input
-    let stdin = process.openStdin();
-    stdin.on('data', chunk => writePerObservation(chunk));
+        // Load multidimensional interfaces
+        loadInterfaceModules(config.sources[i], commManager);
+
+        let source = new SourceReader(config.sources[i], config.hostName + config.liveUriPath);
+        source.on('data', data => {
+            // Launch data event towards predefined interfaces through Data Event Manager module
+            DataEventManager.push(`data-${config.sources[i].name}`, data);
+        });
+    }
+
+    // TODO: Define a way to configure RDF input streams
+    // Listen for data on standard input
+    // let stdin = process.openStdin();
+    // stdin.on('data', chunk => writePerObservation(chunk));
 
     // Launch Web server for polling interfaces
     let app = commManager.app;
-    let router = commManager.router;
-    app.use(router.routes()).use(router.allowedMethods());
+    let http = commManager.http;
+    let ws = commManager.ws;
+    app.use(http.routes()).use(http.allowedMethods());
+    app.ws.use(ws.routes()).use(ws.allowedMethods());
     app.listen(config.httpPort);
 
 } catch (e) {
@@ -31,40 +40,10 @@ try {
     process.exit(1);
 }
 
-function loadInterfaceModules(interfaces, commManager) {
-    for (let i in interfaces) {
-        let Interface = require(interfaces[i].path);
-        new Interface(interfaces[i], commManager);
+function loadInterfaceModules(source, commManager) {
+    let int = Object.keys(source.interfaces);
+    for (let i in int) {
+        let Interface = require(process.cwd() + '/' + source.interfaces[int[i]]);
+        new Interface(source, commManager);
     }
-}
-
-function writePerObservation(chunk) {
-    const store = new N3.Store();
-
-    // Split chunk into observations
-    parser.parse(chunk.toString('utf8'), (error, quad, prefixes) => {
-        if (quad) {
-            store.addQuad(quad);
-        }
-        else {
-            // All quads parsed and stored
-            // Retrieve distinct observations by generatedAtTime
-            const observations = store.getQuads(null, namedNode('http://www.w3.org/ns/prov#generatedAtTime'), null);
-            observations.forEach((observation) => {
-                const writer = new N3.Writer({});
-
-                // Get observation
-                let quadsByObservation = store.getQuads(null, null, null, observation.subject.value);
-                // Get provenance about observation
-                let provObservation = store.getQuads(observation.subject.value, null, null, null);
-
-                writer.addQuads(quadsByObservation);
-                writer.addQuads(provObservation);
-                writer.end((error, result) => {
-                    // Launch data event towards predefined interfaces through Data Event Manager module
-                    DataEventManager.push('data', result);
-                });
-            });
-        }
-    });
 }
