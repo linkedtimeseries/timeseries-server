@@ -17,6 +17,7 @@ try {
 
         let source = new SourceReader(config.sources[i], config.hostName + config.liveUriPath);
         source.on('data', data => {
+            console.log(`${new Date().toISOString()} – data mapped from ${config.sources[i].name}`);
             // Launch data event towards predefined interfaces through Data Event Manager module
             DataEventManager.push(`data-${config.sources[i].name}`, data);
         });
