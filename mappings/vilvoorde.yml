@@ -5,7 +5,7 @@ prefixes:
 mappings:
   capacity:
     sources:
-      - ['data.json~jsonpath', '$[*]']
+      - ['data.json~jsonpath', '$']
     po:
       - [a, mv:RealTimeCapacity]
       - [mv:totalCapacity, $(safes_total), xsd:integer]
@@ -13,7 +13,7 @@ mappings:
 
   parking:
     sources:
-      - ['data.json~jsonpath', '$[*]']
+      - ['data.json~jsonpath', '$']
     s: $(id)
     po:
       - p: mv:capacity
